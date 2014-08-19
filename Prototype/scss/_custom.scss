@@ -1,0 +1,57 @@
+
+
+nav {
+  background: green;
+  height: 68px;
+
+  .container {
+    width: auto;
+    margin: auto auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+  }
+
+  .clearfix:after {
+    display:table;
+    line-height:0;
+    content:"";
+  }
+
+  .logo {
+    float: left;
+    overflow: hidden;
+    height: 68px;
+
+    .gr-logo {
+      width: 24px;
+      height: 24px;
+      display: block;
+      left: 0;
+      position: absolute;
+      top: 23px;
+    }
+
+    a {
+      // color: transparent;
+      // opacity: 0;
+    }
+  }
+
+  .icn.gr-logo {
+    background-position: 0 -77px;
+    background-position-x: 0px;
+    background-position-y: -77px;
+
+  }
+
+  .icn {
+    display: block;
+    width: 18px;
+    height: 18px;
+    display: block;
+    background: url(../assets/gumroad-logo.png);
+    z-index: 100;
+  }
+}

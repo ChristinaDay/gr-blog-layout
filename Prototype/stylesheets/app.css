@@ -8339,3 +8339,53 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
+/* line 3, ../scss/_custom.scss */
+nav {
+  background: green;
+  height: 68px;
+}
+/* line 7, ../scss/_custom.scss */
+nav .container {
+  width: auto;
+  margin: auto auto;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 940px;
+}
+/* line 16, ../scss/_custom.scss */
+nav .clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+/* line 22, ../scss/_custom.scss */
+nav .logo {
+  float: left;
+  overflow: hidden;
+  height: 68px;
+}
+/* line 27, ../scss/_custom.scss */
+nav .logo .gr-logo {
+  width: 24px;
+  height: 24px;
+  display: block;
+  left: 0;
+  position: absolute;
+  top: 23px;
+}
+/* line 42, ../scss/_custom.scss */
+nav .icn.gr-logo {
+  background-position: 0 -77px;
+  background-position-x: 0px;
+  background-position-y: -77px;
+}
+/* line 49, ../scss/_custom.scss */
+nav .icn {
+  display: block;
+  width: 18px;
+  height: 18px;
+  display: block;
+  background: url(../assets/gumroad-logo.png);
+  z-index: 100;
+}
