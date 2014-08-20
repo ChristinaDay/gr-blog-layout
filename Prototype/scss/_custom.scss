@@ -288,7 +288,7 @@ nav.mobile-nav {
     nav.mobile-nav {
       display: inline-block;
       .container {
-        margin-left: 130px;
+        margin-left: 15px;
         width: 966px;
 
         ul {
@@ -327,7 +327,9 @@ nav.mobile-nav {
       }
     }
   }
-
+  .article {
+    padding: 0;
+  }
   footer {
     height: 100%;
     .content {
@@ -345,7 +347,6 @@ nav.mobile-nav {
     .container {
       margin-left: 15px;
       width: 420px;
-
       ul {
         display: none;
       }

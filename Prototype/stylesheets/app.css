@@ -8635,7 +8635,7 @@ nav.mobile-nav {
   }
   /* line 290, ../scss/_custom.scss */
   nav.mobile-nav .container {
-    margin-left: 130px;
+    margin-left: 15px;
     width: 966px;
   }
   /* line 294, ../scss/_custom.scss */
@@ -8678,68 +8678,73 @@ nav.mobile-nav {
     display: inline-block;
   }
 
-  /* line 331, ../scss/_custom.scss */
+  /* line 330, ../scss/_custom.scss */
+  .article {
+    padding: 0;
+  }
+
+  /* line 333, ../scss/_custom.scss */
   footer {
     height: 100%;
   }
-  /* line 333, ../scss/_custom.scss */
+  /* line 335, ../scss/_custom.scss */
   footer .content {
     height: 140px;
   }
 }
 @media (max-width: 420px) {
-  /* line 340, ../scss/_custom.scss */
+  /* line 342, ../scss/_custom.scss */
   nav {
     display: none;
   }
 
-  /* line 343, ../scss/_custom.scss */
+  /* line 345, ../scss/_custom.scss */
   nav.mobile-nav {
     display: inline-block;
   }
-  /* line 345, ../scss/_custom.scss */
+  /* line 347, ../scss/_custom.scss */
   nav.mobile-nav .container {
     margin-left: 15px;
     width: 420px;
   }
-  /* line 349, ../scss/_custom.scss */
+  /* line 350, ../scss/_custom.scss */
   nav.mobile-nav .container ul {
     display: none;
   }
 
-  /* line 355, ../scss/_custom.scss */
+  /* line 356, ../scss/_custom.scss */
   .title-area h1 {
     font-size: 37px;
   }
-  /* line 358, ../scss/_custom.scss */
+  /* line 359, ../scss/_custom.scss */
   .title-area h2 {
     font-size: 28px;
   }
-  /* line 361, ../scss/_custom.scss */
+  /* line 362, ../scss/_custom.scss */
   .title-area h1, .title-area h2 {
     line-height: 27px;
   }
 
-  /* line 366, ../scss/_custom.scss */
+  /* line 367, ../scss/_custom.scss */
   .side-bar {
     display: none;
   }
 
-  /* line 370, ../scss/_custom.scss */
+  /* line 371, ../scss/_custom.scss */
   .article {
     padding: 0;
   }
 
-  /* line 374, ../scss/_custom.scss */
+  /* line 375, ../scss/_custom.scss */
   .article-content figure img {
     width: 99%;
   }
 
-  /* line 378, ../scss/_custom.scss */
+  /* line 379, ../scss/_custom.scss */
   footer {
     height: 110%;
   }
-  /* line 380, ../scss/_custom.scss */
+  /* line 381, ../scss/_custom.scss */
   footer .content {
     height: 140px;
   }
