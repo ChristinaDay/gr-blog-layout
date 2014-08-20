@@ -17,7 +17,7 @@ $(window).scroll(function() {
       top: "0px",
       bottom: "auto"
     });
-  } else if (scroll > 2250) {
+  } else if (scroll > 2265) {
     $(".side-bar").css({
       position: "absolute",
       bottom: "-45px",
