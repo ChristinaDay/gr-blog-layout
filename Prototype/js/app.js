@@ -2,4 +2,26 @@
 // Documentation can be found at: http://foundation.zurb.com/docs
 $(document).foundation();
 
-$(".side-bar").stick_in_parent();
+$(window).scroll(function() {
+  var scroll = $(window).scrollTop();
+
+  if (scroll < 163 && scroll < 2250) {
+    $(".side-bar").css({
+      position: "absolute",
+      top: "",
+      bottom: "auto"
+    });
+  } else if (scroll > 163 && scroll < 2250) {
+    $(".side-bar").css({
+      position: "fixed",
+      top: "0px",
+      bottom: "auto"
+    });
+  } else if (scroll > 2250) {
+    $(".side-bar").css({
+      position: "absolute",
+      bottom: "-45px",
+      top: "auto"
+    });
+  }
+});

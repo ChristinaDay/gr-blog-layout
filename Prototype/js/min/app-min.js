@@ -1,1 +1,1 @@
-$(document).foundation(),$(".side-bar").stick_in_parent();
+$(document).foundation(),$(window).scroll(function(){var o=$(window).scrollTop();163>o&&2250>o?$(".side-bar").css({position:"absolute",top:"",bottom:"auto"}):o>163&&2250>o?$(".side-bar").css({position:"fixed",top:"0px",bottom:"auto"}):o>2250&&$(".side-bar").css({position:"absolute",bottom:"-45px",top:"auto"})});

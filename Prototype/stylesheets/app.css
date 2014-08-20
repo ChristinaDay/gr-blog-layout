@@ -8437,67 +8437,73 @@ nav ul li a:hover {
 }
 
 /* line 96, ../scss/_custom.scss */
+.main {
+  margin: 95px 0 0 0;
+  position: relative;
+}
+
+/* line 101, ../scss/_custom.scss */
 .side-bar {
   width: 150px;
-  margin: 100px 10px 0 33px;
+  margin: 10px 10px 0 33px;
   position: absolute;
   text-align: right;
   color: #a8a8a7;
 }
-/* line 103, ../scss/_custom.scss */
+/* line 108, ../scss/_custom.scss */
 .side-bar p {
   font-size: 11px;
 }
-/* line 109, ../scss/_custom.scss */
+/* line 114, ../scss/_custom.scss */
 .side-bar .bio img.portrait {
   width: 25px;
 }
-/* line 113, ../scss/_custom.scss */
+/* line 118, ../scss/_custom.scss */
 .side-bar .bio p {
   margin-top: 10px;
 }
-/* line 118, ../scss/_custom.scss */
+/* line 123, ../scss/_custom.scss */
 .side-bar ul {
   list-style: none;
 }
-/* line 121, ../scss/_custom.scss */
+/* line 126, ../scss/_custom.scss */
 .side-bar ul p {
   font-weight: bold;
 }
-/* line 125, ../scss/_custom.scss */
+/* line 130, ../scss/_custom.scss */
 .side-bar ul li {
   padding-bottom: 10px;
 }
-/* line 129, ../scss/_custom.scss */
+/* line 134, ../scss/_custom.scss */
 .side-bar ul img {
   height: 30px;
   width: 30px;
 }
 
-/* line 136, ../scss/_custom.scss */
+/* line 141, ../scss/_custom.scss */
 .article {
-  margin: 95px 0 50px 0;
+  margin-bottom: 50px;
   padding-left: 350px;
 }
-/* line 140, ../scss/_custom.scss */
+/* line 145, ../scss/_custom.scss */
 .article .title-area h1, .article h2 {
   line-height: 50px;
 }
-/* line 144, ../scss/_custom.scss */
+/* line 149, ../scss/_custom.scss */
 .article .article-content {
   float: left;
   padding: 20px 0 0 15px;
 }
-/* line 148, ../scss/_custom.scss */
+/* line 153, ../scss/_custom.scss */
 .article .article-content img {
   margin: 10px 0 30px 0;
 }
-/* line 152, ../scss/_custom.scss */
+/* line 157, ../scss/_custom.scss */
 .article .article-content figure {
   float: right;
   height: 230px;
 }
-/* line 156, ../scss/_custom.scss */
+/* line 161, ../scss/_custom.scss */
 .article .article-content figure figcaption {
   font-size: 11px;
   text-transform: uppercase;
@@ -8505,35 +8511,35 @@ nav ul li a:hover {
   max-width: 338px;
   line-height: 17px;
 }
-/* line 164, ../scss/_custom.scss */
+/* line 169, ../scss/_custom.scss */
 .article .article-content figure img {
   margin: 0 0 5px 0;
   max-width: 340px;
 }
 
-/* line 172, ../scss/_custom.scss */
+/* line 177, ../scss/_custom.scss */
 footer {
   background-color: #efefe9;
   border-top: 1px solid #ddd;
   height: 300px;
   padding-bottom: 3px;
 }
-/* line 178, ../scss/_custom.scss */
+/* line 183, ../scss/_custom.scss */
 footer .row {
   margin-top: 20px;
 }
-/* line 182, ../scss/_custom.scss */
+/* line 187, ../scss/_custom.scss */
 footer h5 {
   font-size: 13px;
   color: #757575;
   font-weight: bold;
 }
-/* line 188, ../scss/_custom.scss */
+/* line 193, ../scss/_custom.scss */
 footer ul {
   border-right: 1px solid #ddd;
   list-style: none;
 }
-/* line 192, ../scss/_custom.scss */
+/* line 197, ../scss/_custom.scss */
 footer ul li a {
   font-weight: normal;
   font-size: 13px;
@@ -8541,7 +8547,7 @@ footer ul li a {
   margin: 0;
 }
 
-/* line 201, ../scss/_custom.scss */
+/* line 206, ../scss/_custom.scss */
 .color-bar-bottom {
   background: url(../assets/color-bar.png) top center;
   height: 3px;
