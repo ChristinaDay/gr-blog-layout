@@ -14,8 +14,9 @@ body {
   }
 
   h3 {
-    font-size: 27px;
-    color: #a8a8a7;
+    font-size: 25px;
+    color: #757575;
+    font-weight: normal;
   }
 
   a {
@@ -140,11 +141,13 @@ nav {
 
 .article  {
   margin-bottom: 50px;
-  padding-left: 350px;
+  padding-left: 108px;
+  max-width: 823px;
 
   .title-area h1, h2 {
     line-height: 50px;
   }
+
 
   .article-content {
     float: left;
@@ -184,6 +187,21 @@ footer {
     margin-top: 20px;
   }
 
+  .content {
+    height: 210px;
+    border-right: 1px solid #ddd;
+    padding-left: 53px;
+  }
+
+  .content.newsletter {
+    border: none;
+  }
+
+  .elsewhere img {
+    margin: 0 5px 4.7px 0;
+    width: 14px;
+  }
+
   h5 {
     font-size: 13px;
     color: #757575;
@@ -191,14 +209,53 @@ footer {
   }
 
   ul {
-    border-right: 1px solid #ddd;
     list-style: none;
+    margin: 0;
 
     li a {
       font-weight: normal;
       font-size: 13px;
       color: #a8a8a7;
-      margin: 0;
+      transition: color 0.28s ease;
+
+    }
+
+    a:hover {
+      text-decoration: none;
+      color: #757575;
+    }
+  }
+
+  .newsletter {
+
+    h5 {
+      margin-bottom: 13px;
+    }
+
+    p {
+      color: #a8a8a7;
+    }
+
+    .button {
+      font-size: 15px;
+      background: #36a9ae;
+      border: 1px solid #2a8387;
+      filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#37adb2', endColorstr='#329ca0', GradientType=0)";
+      background: -webkit-linear-gradient(#37adb2, #329ca0);
+      background: -moz-linear-gradient(top, #37adb2, #329ca0);
+      background: linear-gradient(top, #37adb2, #329ca0);
+      background: #36a9ae;
+      border: 1px solid #2a8387;
+      filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#37adb2', endColorstr='#329ca0', GradientType=0)";
+      background: -webkit-linear-gradient(#37adb2, #329ca0);
+      background: -moz-linear-gradient(top, #37adb2, #329ca0);
+      background: linear-gradient(top, #37adb2, #329ca0);
+    }
+
+    .disclaimer {
+      font-weight: normal;
+      font-size: 13px;
+      color: #a8a8a7;
     }
   }
 }

@@ -8358,15 +8358,16 @@ body h2 {
 }
 /* line 16, ../scss/_custom.scss */
 body h3 {
-  font-size: 27px;
-  color: #a8a8a7;
+  font-size: 25px;
+  color: #757575;
+  font-weight: normal;
 }
-/* line 21, ../scss/_custom.scss */
+/* line 22, ../scss/_custom.scss */
 body a {
   font-weight: bold;
 }
 
-/* line 27, ../scss/_custom.scss */
+/* line 28, ../scss/_custom.scss */
 .color-bar-top {
   background: url(../assets/color-bar.png) top center;
   height: 3px;
@@ -8376,33 +8377,33 @@ body a {
   z-index: 9;
 }
 
-/* line 36, ../scss/_custom.scss */
+/* line 37, ../scss/_custom.scss */
 nav {
   height: 68px;
   background-color: #efefe9;
   border-bottom: 1px solid #ddd;
   padding-top: 3px;
 }
-/* line 42, ../scss/_custom.scss */
+/* line 43, ../scss/_custom.scss */
 nav .container {
   position: relative;
   margin-left: 157px;
   margin-right: auto;
   width: 1065px;
 }
-/* line 49, ../scss/_custom.scss */
+/* line 50, ../scss/_custom.scss */
 nav .clearfix:after {
   display: table;
   line-height: 0;
   content: "";
 }
-/* line 55, ../scss/_custom.scss */
+/* line 56, ../scss/_custom.scss */
 nav .logo {
   float: left;
   overflow: hidden;
   height: 68px;
 }
-/* line 61, ../scss/_custom.scss */
+/* line 62, ../scss/_custom.scss */
 nav .logo a {
   color: transparent;
   background-image: url(../assets/gumroad-logo.png);
@@ -8412,37 +8413,37 @@ nav .logo a {
   background-size: 30px;
   margin-top: 17px;
 }
-/* line 72, ../scss/_custom.scss */
+/* line 73, ../scss/_custom.scss */
 nav ul {
   float: right;
   list-style: none;
 }
-/* line 76, ../scss/_custom.scss */
+/* line 77, ../scss/_custom.scss */
 nav ul li {
   display: inline-block;
   padding-left: 30px;
   margin-top: 18px;
 }
-/* line 81, ../scss/_custom.scss */
+/* line 82, ../scss/_custom.scss */
 nav ul li a {
   color: #a8a8a7;
   font-size: 13px;
   font-weight: normal;
   transition: color 0.28s ease;
 }
-/* line 88, ../scss/_custom.scss */
+/* line 89, ../scss/_custom.scss */
 nav ul li a:hover {
   text-decoration: none;
   color: #757575;
 }
 
-/* line 96, ../scss/_custom.scss */
+/* line 97, ../scss/_custom.scss */
 .main {
   margin: 95px 0 0 0;
   position: relative;
 }
 
-/* line 101, ../scss/_custom.scss */
+/* line 102, ../scss/_custom.scss */
 .side-bar {
   width: 150px;
   margin: 10px 10px 0 33px;
@@ -8450,60 +8451,61 @@ nav ul li a:hover {
   text-align: right;
   color: #a8a8a7;
 }
-/* line 108, ../scss/_custom.scss */
+/* line 109, ../scss/_custom.scss */
 .side-bar p {
   font-size: 11px;
 }
-/* line 114, ../scss/_custom.scss */
+/* line 115, ../scss/_custom.scss */
 .side-bar .bio img.portrait {
   width: 25px;
 }
-/* line 118, ../scss/_custom.scss */
+/* line 119, ../scss/_custom.scss */
 .side-bar .bio p {
   margin-top: 10px;
 }
-/* line 123, ../scss/_custom.scss */
+/* line 124, ../scss/_custom.scss */
 .side-bar ul {
   list-style: none;
 }
-/* line 126, ../scss/_custom.scss */
+/* line 127, ../scss/_custom.scss */
 .side-bar ul p {
   font-weight: bold;
 }
-/* line 130, ../scss/_custom.scss */
+/* line 131, ../scss/_custom.scss */
 .side-bar ul li {
   padding-bottom: 10px;
 }
-/* line 134, ../scss/_custom.scss */
+/* line 135, ../scss/_custom.scss */
 .side-bar ul img {
   height: 30px;
   width: 30px;
 }
 
-/* line 141, ../scss/_custom.scss */
+/* line 142, ../scss/_custom.scss */
 .article {
   margin-bottom: 50px;
-  padding-left: 350px;
+  padding-left: 108px;
+  max-width: 823px;
 }
-/* line 145, ../scss/_custom.scss */
+/* line 147, ../scss/_custom.scss */
 .article .title-area h1, .article h2 {
   line-height: 50px;
 }
-/* line 149, ../scss/_custom.scss */
+/* line 152, ../scss/_custom.scss */
 .article .article-content {
   float: left;
   padding: 20px 0 0 15px;
 }
-/* line 153, ../scss/_custom.scss */
+/* line 156, ../scss/_custom.scss */
 .article .article-content img {
   margin: 10px 0 30px 0;
 }
-/* line 157, ../scss/_custom.scss */
+/* line 160, ../scss/_custom.scss */
 .article .article-content figure {
   float: right;
   height: 230px;
 }
-/* line 161, ../scss/_custom.scss */
+/* line 164, ../scss/_custom.scss */
 .article .article-content figure figcaption {
   font-size: 11px;
   text-transform: uppercase;
@@ -8511,43 +8513,93 @@ nav ul li a:hover {
   max-width: 338px;
   line-height: 17px;
 }
-/* line 169, ../scss/_custom.scss */
+/* line 172, ../scss/_custom.scss */
 .article .article-content figure img {
   margin: 0 0 5px 0;
   max-width: 340px;
 }
 
-/* line 177, ../scss/_custom.scss */
+/* line 180, ../scss/_custom.scss */
 footer {
   background-color: #efefe9;
   border-top: 1px solid #ddd;
   height: 300px;
   padding-bottom: 3px;
 }
-/* line 183, ../scss/_custom.scss */
+/* line 186, ../scss/_custom.scss */
 footer .row {
   margin-top: 20px;
 }
-/* line 187, ../scss/_custom.scss */
+/* line 190, ../scss/_custom.scss */
+footer .content {
+  height: 210px;
+  border-right: 1px solid #ddd;
+  padding-left: 53px;
+}
+/* line 196, ../scss/_custom.scss */
+footer .content.newsletter {
+  border: none;
+}
+/* line 200, ../scss/_custom.scss */
+footer .elsewhere img {
+  margin: 0 5px 4.7px 0;
+  width: 14px;
+}
+/* line 205, ../scss/_custom.scss */
 footer h5 {
   font-size: 13px;
   color: #757575;
   font-weight: bold;
 }
-/* line 193, ../scss/_custom.scss */
+/* line 211, ../scss/_custom.scss */
 footer ul {
-  border-right: 1px solid #ddd;
   list-style: none;
+  margin: 0;
 }
-/* line 197, ../scss/_custom.scss */
+/* line 215, ../scss/_custom.scss */
 footer ul li a {
   font-weight: normal;
   font-size: 13px;
   color: #a8a8a7;
-  margin: 0;
+  transition: color 0.28s ease;
+}
+/* line 223, ../scss/_custom.scss */
+footer ul a:hover {
+  text-decoration: none;
+  color: #757575;
+}
+/* line 231, ../scss/_custom.scss */
+footer .newsletter h5 {
+  margin-bottom: 13px;
+}
+/* line 235, ../scss/_custom.scss */
+footer .newsletter p {
+  color: #a8a8a7;
+}
+/* line 239, ../scss/_custom.scss */
+footer .newsletter .button {
+  font-size: 15px;
+  background: #36a9ae;
+  border: 1px solid #2a8387;
+  filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#37adb2', endColorstr='#329ca0', GradientType=0)";
+  background: -webkit-linear-gradient(#37adb2, #329ca0);
+  background: -moz-linear-gradient(top, #37adb2, #329ca0);
+  background: linear-gradient(top, #37adb2, #329ca0);
+  background: #36a9ae;
+  border: 1px solid #2a8387;
+  filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#37adb2', endColorstr='#329ca0', GradientType=0)";
+  background: -webkit-linear-gradient(#37adb2, #329ca0);
+  background: -moz-linear-gradient(top, #37adb2, #329ca0);
+  background: linear-gradient(top, #37adb2, #329ca0);
+}
+/* line 255, ../scss/_custom.scss */
+footer .newsletter .disclaimer {
+  font-weight: normal;
+  font-size: 13px;
+  color: #a8a8a7;
 }
 
-/* line 206, ../scss/_custom.scss */
+/* line 263, ../scss/_custom.scss */
 .color-bar-bottom {
   background: url(../assets/color-bar.png) top center;
   height: 3px;
