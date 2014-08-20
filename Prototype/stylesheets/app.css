@@ -6116,13 +6116,14 @@ td {
 /* Default Link Styles */
 /* line 217, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a {
-  color: #008cba;
+  color: #03949a;
   text-decoration: none;
   line-height: inherit;
 }
 /* line 222, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a:hover, a:focus {
-  color: #0078a0;
+  color: #037f84;
+  text-decoration: underline;
 }
 /* line 230, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a img {
@@ -8339,12 +8340,50 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 3, ../scss/_custom.scss */
-nav {
-  background: green;
-  height: 68px;
+/* line 1, ../scss/_custom.scss */
+body {
+  color: #757575;
+  font-size: 19px;
 }
-/* line 7, ../scss/_custom.scss */
+/* line 5, ../scss/_custom.scss */
+body h1 {
+  font-weight: bold;
+  font-size: 57px;
+  color: #4f4f4f;
+}
+/* line 11, ../scss/_custom.scss */
+body h2 {
+  font-size: 45px;
+  color: #a8a8a7;
+}
+/* line 16, ../scss/_custom.scss */
+body h3 {
+  font-size: 27px;
+  color: #a8a8a7;
+}
+/* line 21, ../scss/_custom.scss */
+body a {
+  font-weight: bold;
+}
+
+/* line 27, ../scss/_custom.scss */
+.color-bar {
+  background: url(../assets/color-bar.png) top center;
+  height: 3px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 9;
+}
+
+/* line 36, ../scss/_custom.scss */
+nav {
+  height: 68px;
+  background-color: #efefe9;
+  border-bottom: 1px solid #ddd;
+  padding-top: 3px;
+}
+/* line 42, ../scss/_custom.scss */
 nav .container {
   width: auto;
   margin: auto auto;
@@ -8353,39 +8392,93 @@ nav .container {
   margin-right: auto;
   width: 940px;
 }
-/* line 16, ../scss/_custom.scss */
+/* line 51, ../scss/_custom.scss */
 nav .clearfix:after {
   display: table;
   line-height: 0;
   content: "";
 }
-/* line 22, ../scss/_custom.scss */
+/* line 57, ../scss/_custom.scss */
 nav .logo {
   float: left;
   overflow: hidden;
   height: 68px;
 }
-/* line 27, ../scss/_custom.scss */
-nav .logo .gr-logo {
-  width: 24px;
-  height: 24px;
+/* line 63, ../scss/_custom.scss */
+nav .logo a {
+  color: transparent;
+  background-image: url(../assets/gumroad-logo.png);
+  height: 30px;
+  width: 30px;
   display: block;
-  left: 0;
+  background-size: 30px;
+  margin-top: 17px;
+}
+/* line 74, ../scss/_custom.scss */
+nav ul {
+  float: right;
+  list-style: none;
+}
+/* line 78, ../scss/_custom.scss */
+nav ul li {
+  display: inline-block;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+
+/* line 86, ../scss/_custom.scss */
+.side-bar {
+  width: 150px;
+  margin: 100px 10px 0 33px;
   position: absolute;
-  top: 23px;
 }
-/* line 42, ../scss/_custom.scss */
-nav .icn.gr-logo {
-  background-position: 0 -77px;
-  background-position-x: 0px;
-  background-position-y: -77px;
+/* line 92, ../scss/_custom.scss */
+.side-bar .bio {
+  text-align: right;
+  color: #a8a8a7;
 }
-/* line 49, ../scss/_custom.scss */
-nav .icn {
-  display: block;
-  width: 18px;
-  height: 18px;
-  display: block;
-  background: url(../assets/gumroad-logo.png);
-  z-index: 100;
+/* line 96, ../scss/_custom.scss */
+.side-bar .bio img.portrait {
+  width: 25px;
+}
+/* line 100, ../scss/_custom.scss */
+.side-bar .bio p {
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+/* line 107, ../scss/_custom.scss */
+.article {
+  margin: 95px 0 0 260px;
+}
+/* line 110, ../scss/_custom.scss */
+.article .title-area h1, .article h2 {
+  line-height: 50px;
+}
+/* line 114, ../scss/_custom.scss */
+.article .article-content {
+  float: left;
+  padding: 20px 0 0 15px;
+}
+/* line 118, ../scss/_custom.scss */
+.article .article-content img {
+  margin: 10px 0 30px 0;
+}
+/* line 122, ../scss/_custom.scss */
+.article .article-content figure {
+  float: right;
+  height: 230px;
+}
+/* line 126, ../scss/_custom.scss */
+.article .article-content figure figcaption {
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #a8a8a7;
+  max-width: 338px;
+  line-height: 17px;
+}
+/* line 134, ../scss/_custom.scss */
+.article .article-content figure img {
+  margin: 0 0 5px 0;
+  max-width: 340px;
 }

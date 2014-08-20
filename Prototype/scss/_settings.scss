@@ -182,8 +182,8 @@ $primary-color: #008CBA;
 
 // We use these to style anchors
 // $anchor-text-decoration: none;
-// $anchor-text-decoration-hover: none;
-// $anchor-font-color: $primary-color;
+$anchor-text-decoration-hover: underline;
+$anchor-font-color: #03949a;
 // $anchor-font-color-hover: scale-color($primary-color, $lightness: -14%);
 
 // We use these to style the <hr> element

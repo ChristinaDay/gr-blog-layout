@@ -8,160 +8,111 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
+    <div class="color-bar"></div>
     <nav>
-      <div class="container">
-        <div class="clearfix">
-          <a href="/" class="logo">
-            <i class="icn gr-logo"></i>
+      <div class="container clearfix">
+        <div class="logo">
+          <a href="/">
+            Gumroad
           </a>
         </div>
+        <ul>
+          <li>Feature Updates</li>
+          <li>Creator Stories</li>
+          <li>Tips &amp; Tricks</li>
+          <li>Selling Trends</li>
+        </ul>
       </div>
     </nav>
 
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="panel">
-          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-          <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-        </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>
-          </div>
-        </div>
+    <div class="side-bar">
+      <div class="bio">
+        <img class="portrait" src="../assets/bio-pic.png" alt="travis nichols"/>
+        <p>
+          Travis is an author and
+          illustrator of books and comics for kids and post-kids. He is a Content Editor at Gumroad
+        </p>
       </div>
-    </div>
+    </div><!--end .side-bar-->
 
-    <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
-
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="callout panel">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
-
-        <hr />
-
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-12.columns" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <div class="row collapse">
-                <label>Input Label</label>
-                <div class="small-9 columns">
-                  <input type="text" placeholder="small-9.columns" />
-                </div>
-                <div class="small-3 columns">
-                  <span class="postfix">.com</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Select Box</label>
-              <select>
-                <option value="husker">Husker</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-6 medium-6 columns">
-              <label>Choose Your Favorite</label>
-              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-            </div>
-            <div class="large-6 medium-6 columns">
-              <label>Check these out</label>
-              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Textarea Label</label>
-              <textarea placeholder="small-12.columns"></textarea>
-            </div>
-          </div>
-        </form>
+    <div class="row article">
+      <div class="title-area large-8 columns">
+        <h1>A Penny Saved:</h1>
+        <h2>Psychological Pricing</h2>
+        <h3>By Travis Nichols on October 18, 2013</h3>
       </div>
 
-      <div class="large-4 medium-4 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="small button">Simple Button</a><br/>
-        <a href="#" class="small radius button">Radius Button</a><br/>
-        <a href="#" class="small round button">Round Button</a><br/>
-        <a href="#" class="medium success button">Success Btn</a><br/>
-        <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>
-        <div class="panel">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Checkout the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>
-        </div>
-      </div>
-    </div>
+      <div class="article-content large-8">
+        <p>
+          Please note: This post is for sellers only. If you’re not a seller, please close this tab and go about your daily purchasing.
+          </br>
+          Waiting.
+          </br>
+          Okay, great. Now that it’s just the sellers, here’s some information about a pricing strategy you might consider trying out if you’re aren’t already.
+          </br>
+          But first, look at the image below and count back from 10. Go ahead.
+        </p>
+
+        <img src="../assets/pilot-image.jpg" alt="the number 99 is hypnotic, stacked black numbers 0.99 sit on yellow background"/>
+
+        <p>
+          <em>9.99… Look deeply at the price… 8.99… You’re feeling veeeery frugal… 7.99… You’re getting your credit card… 6.99… You’re a savvy consumer… 5.99… Oh, the savings… 4.99… Spend… Consume… Buy…</em>
+        </p>
+        <p>
+          Yes. The magic of the 9. You see it everywhere. On TV, in the grocery store, in car lots. Prices ending in dollar values of 9 and/or cent values of 99 are everywhere. And we’re smart people. We know that $19.99 is essentially $20, but even knowing that doesn’t stop us from, well, not knowing that.
+        </p>
+        <p>
+          In languages that read words left to right (and, interestingly, in many languages that read right to left), we read and process numbers,
+          naturally, from left to right. And apparently there’s a decay as we travel along.
+        </p>
+        <figure>
+          <img class="image-in-paragraph" src="../assets/gas-prices.jpg" alt+"the pricing sign at a chevron gas station showing that the establishment charges tenths of cents"/>
+          <figcaption>At Gumroad, we stop just shy of letting you charge tenths of cents, like gas companies do.</figcaption>
+        </figure>
+        <p>
+          According to several
+          studies, as we’re reading prices, we either round down after the whole numbers in our minds or essentially forget what comes after the
+          beginnings of prices. Additionally, other research suggests that when we see a price ending in 9 or .99, we believe the seller has priced the item at the lowest point possible and that we’re getting a great deal. What suckers we are. At Gumroad, we’ll stop just shy of letting you charge tenths of cents (come on, gas stations, that’s cheating) or allowing the font on your change to be smaller on-screen. But is there anything to this stuff in the e-marketplace? Let’s see.
+        </p>
+
+        <img src="../assets/conversion-chart.jpg"/>
+
+        <p>
+          Across the board, prices ending in .99 have higher conversion rates than prices ending in one cent higher, and in one case, the conversion rate is twice as high.
+        </p>
+        <p>
+          Does that mean that you should rush to change all of your prices? Well, hold on. Something to consider is the Fancy Factor. This completely made-up term refers to the psychological pricing system used by many high-end restaurants and retailers. You’ll find that these places will go the other way by using whole numbers (and often only even numbers) to bolster an atmosphere of elegance and high value. So put that in your tiny teacup and mull it over. What are you selling? Store-brand mac & cheese or geoduck clam with crême fraîche and a lily bulb? Likely it’s something somewhere between the two.
+        </p>
+
+        <img src="../assets/restaurant-menu.jpg" alt="a menu from a gourmet restaurant reflecting high price-to-value ratio"/>
+
+        <p>
+          We’ll dig more into psychological pricing in later posts. In the meantime… okay, buyers! You can come back now.
+        </p>
+        <p>
+          We’d love to <a href="#">hear from you</a> with any feedback or questions.
+        </p>
+
+      </div><!--end .article-content-->
+    </div><!--end .article-->
+
+    <footer>
+
+    </footer>
+
+    <div class="color-bar"></div>
+
+
+
+
+
+
+
+
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/jquery.sticky-kit.min.js"></script>
   </body>
 </html>
