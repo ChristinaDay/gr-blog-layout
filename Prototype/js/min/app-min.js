@@ -1,0 +1,1 @@
+$(document).foundation(),$(".side-bar").stick_in_parent();

@@ -8385,26 +8385,24 @@ nav {
 }
 /* line 42, ../scss/_custom.scss */
 nav .container {
-  width: auto;
-  margin: auto auto;
   position: relative;
-  margin-left: auto;
+  margin-left: 157px;
   margin-right: auto;
-  width: 940px;
+  width: 1065px;
 }
-/* line 51, ../scss/_custom.scss */
+/* line 49, ../scss/_custom.scss */
 nav .clearfix:after {
   display: table;
   line-height: 0;
   content: "";
 }
-/* line 57, ../scss/_custom.scss */
+/* line 55, ../scss/_custom.scss */
 nav .logo {
   float: left;
   overflow: hidden;
   height: 68px;
 }
-/* line 63, ../scss/_custom.scss */
+/* line 61, ../scss/_custom.scss */
 nav .logo a {
   color: transparent;
   background-image: url(../assets/gumroad-logo.png);
@@ -8414,63 +8412,92 @@ nav .logo a {
   background-size: 30px;
   margin-top: 17px;
 }
-/* line 74, ../scss/_custom.scss */
+/* line 72, ../scss/_custom.scss */
 nav ul {
   float: right;
   list-style: none;
 }
-/* line 78, ../scss/_custom.scss */
+/* line 76, ../scss/_custom.scss */
 nav ul li {
   display: inline-block;
-  padding-left: 10px;
-  margin-top: 20px;
+  padding-left: 30px;
+  margin-top: 18px;
+}
+/* line 81, ../scss/_custom.scss */
+nav ul li a {
+  color: #a8a8a7;
+  font-size: 13px;
+  font-weight: normal;
+  transition: color 0.28s ease;
+}
+/* line 88, ../scss/_custom.scss */
+nav ul li a:hover {
+  text-decoration: none;
+  color: #757575;
 }
 
-/* line 86, ../scss/_custom.scss */
+/* line 96, ../scss/_custom.scss */
 .side-bar {
   width: 150px;
   margin: 100px 10px 0 33px;
   position: absolute;
-}
-/* line 92, ../scss/_custom.scss */
-.side-bar .bio {
   text-align: right;
   color: #a8a8a7;
 }
-/* line 96, ../scss/_custom.scss */
+/* line 103, ../scss/_custom.scss */
+.side-bar p {
+  font-size: 11px;
+}
+/* line 109, ../scss/_custom.scss */
 .side-bar .bio img.portrait {
   width: 25px;
 }
-/* line 100, ../scss/_custom.scss */
+/* line 113, ../scss/_custom.scss */
 .side-bar .bio p {
-  font-size: 11px;
   margin-top: 10px;
 }
+/* line 118, ../scss/_custom.scss */
+.side-bar ul {
+  list-style: none;
+}
+/* line 121, ../scss/_custom.scss */
+.side-bar ul p {
+  font-weight: bold;
+}
+/* line 125, ../scss/_custom.scss */
+.side-bar ul li {
+  padding-bottom: 10px;
+}
+/* line 129, ../scss/_custom.scss */
+.side-bar ul img {
+  height: 30px;
+  width: 30px;
+}
 
-/* line 107, ../scss/_custom.scss */
+/* line 136, ../scss/_custom.scss */
 .article {
   margin: 95px 0 50px 0;
   padding-left: 350px;
 }
-/* line 111, ../scss/_custom.scss */
+/* line 140, ../scss/_custom.scss */
 .article .title-area h1, .article h2 {
   line-height: 50px;
 }
-/* line 115, ../scss/_custom.scss */
+/* line 144, ../scss/_custom.scss */
 .article .article-content {
   float: left;
   padding: 20px 0 0 15px;
 }
-/* line 119, ../scss/_custom.scss */
+/* line 148, ../scss/_custom.scss */
 .article .article-content img {
   margin: 10px 0 30px 0;
 }
-/* line 123, ../scss/_custom.scss */
+/* line 152, ../scss/_custom.scss */
 .article .article-content figure {
   float: right;
   height: 230px;
 }
-/* line 127, ../scss/_custom.scss */
+/* line 156, ../scss/_custom.scss */
 .article .article-content figure figcaption {
   font-size: 11px;
   text-transform: uppercase;
@@ -8478,21 +8505,43 @@ nav ul li {
   max-width: 338px;
   line-height: 17px;
 }
-/* line 135, ../scss/_custom.scss */
+/* line 164, ../scss/_custom.scss */
 .article .article-content figure img {
   margin: 0 0 5px 0;
   max-width: 340px;
 }
 
-/* line 143, ../scss/_custom.scss */
+/* line 172, ../scss/_custom.scss */
 footer {
   background-color: #efefe9;
   border-top: 1px solid #ddd;
   height: 300px;
   padding-bottom: 3px;
 }
+/* line 178, ../scss/_custom.scss */
+footer .row {
+  margin-top: 20px;
+}
+/* line 182, ../scss/_custom.scss */
+footer h5 {
+  font-size: 13px;
+  color: #757575;
+  font-weight: bold;
+}
+/* line 188, ../scss/_custom.scss */
+footer ul {
+  border-right: 1px solid #ddd;
+  list-style: none;
+}
+/* line 192, ../scss/_custom.scss */
+footer ul li a {
+  font-weight: normal;
+  font-size: 13px;
+  color: #a8a8a7;
+  margin: 0;
+}
 
-/* line 150, ../scss/_custom.scss */
+/* line 201, ../scss/_custom.scss */
 .color-bar-bottom {
   background: url(../assets/color-bar.png) top center;
   height: 3px;
