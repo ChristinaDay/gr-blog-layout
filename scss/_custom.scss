@@ -26,7 +26,7 @@ body {
 
 
 .color-bar-top {
-  background: url(assets/color-bar.png) top center;
+  background: url(../assets/color-bar.png)  top center;
   height: 3px;
   width: 100%;
   position: absolute;
@@ -42,9 +42,9 @@ nav {
 
   .container {
     position: relative;
-    margin-left: 157px;
+    margin-left: 45px;
     margin-right: auto;
-    width: 1065px;
+    width: 1164px;
   }
 
   .clearfix:after {
@@ -61,12 +61,12 @@ nav {
 
     a {
       color: transparent;
-      background-image: url(assets/sample-logo.png);
-      height: 30px;
-      width: 30px;
+      background-image: url(../assets/sample-logo.png);
+      height: 22px;
+      width: 142px;
       display: block;
-      background-size: 30px;
-      margin-top: 17px;
+      background-size: 142px;
+      margin-top: 21px;
     }
   }
 
